@@ -1,0 +1,23 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "API Rest em NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js --ignore /src/__tests__",
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "author": "Lucas Marinzeck",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@hapi/joi": "^15.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.7"
+  }
+}
